@@ -9,3 +9,7 @@ docker-develop-up:
 
 docker-develop-down:
 	docker-compose -f docker/docker-compose.yml down
+
+
+docker-develop-build:
+	docker-compose -f docker/docker-compose.yml build
